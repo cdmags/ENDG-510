@@ -1,7 +1,7 @@
 import pandas as pd # in case of error, install pnadas using: pip install pandas
 # Read the CSV file into a DataFrame
 
-df = pd.read_csv('data.csv')
+df = pd.read_csv('\data.csv')
 
 new_data = {
     'Temp': 366,
